@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b955883-3556-48a0-8afb-a522ab6f37b5" name="Changes" comment="Projeto semi pronto" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2c6gJm9ElkcD8WXaiWe9h9JE0qP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Users/Leo/Desktop/Projetos Java/Acelera Estoque",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Acelera.Estoque.Modelos.Cliente" />
+      <recent name="Acelera.Estoque.Modelos.Vendas" />
+      <recent name="Acelera.Estoque.Modelos.Produto" />
+      <recent name="Acelera.Estoque.Modelos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Leo\Desktop\Projetos Java\Acelera Estoque\Acelera-Estoque\src\main\resources\db\migration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Leo\Desktop\Projetos Java\Acelera Estoque\Acelera-Estoque\src\main\java\Acelera" />
+      <recent name="D:\Users\Leo\Desktop\Projetos Java\Acelera Estoque\Acelera-Estoque\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Acelera.Estoque.Controller" />
+      <recent name="Acelera.Estoque.Modelos.Cliente" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AceleraEstoqueApplication">
+    <configuration name="AceleraEstoqueApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acelera.Estoque.AceleraEstoqueApplication" />
+      <module name="Acelera-Estoque" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Acelera.Estoque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteRepositoryTest.existsByCpf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Acelera-Estoque" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Acelera.Estoque.Modelos.Cliente.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Acelera.Estoque.Modelos.Cliente" />
+      <option name="MAIN_CLASS_NAME" value="Acelera.Estoque.Modelos.Cliente.ClienteRepositoryTest" />
+      <option name="METHOD_NAME" value="existsByCpf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteRepositoryTest.existsByCpfCenario1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Acelera-Estoque" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Acelera.Estoque.Modelos.Cliente.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Acelera.Estoque.Modelos.Cliente" />
+      <option name="MAIN_CLASS_NAME" value="Acelera.Estoque.Modelos.Cliente.ClienteRepositoryTest" />
+      <option name="METHOD_NAME" value="existsByCpfCenario1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoControllerTest.cadastrar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Acelera-Estoque" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Acelera.Estoque.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Acelera.Estoque.Controller" />
+      <option name="MAIN_CLASS_NAME" value="Acelera.Estoque.Controller.ProdutoControllerTest" />
+      <option name="METHOD_NAME" value="cadastrar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AceleraEstoqueApplication" />
+        <item itemvalue="JUnit.ProdutoControllerTest.cadastrar" />
+        <item itemvalue="JUnit.ClienteRepositoryTest.existsByCpfCenario1" />
+        <item itemvalue="JUnit.ClienteRepositoryTest.existsByCpf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b955883-3556-48a0-8afb-a522ab6f37b5" name="Changes" comment="" />
+      <created>1707437372374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707437372374</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Projeto semi pronto">
+      <option name="closed" value="true" />
+      <created>1707955600275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707955600275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projeto semi pronto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto semi pronto" />
+  </component>
+</project>
