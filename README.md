@@ -13,6 +13,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Ler um xlsx e cadastrar as vendas realizadas
 - [ ] Criar um relatorio com a venda de cada mês
 - [ ] Criar um relatorio com a compra realizada de determinado cliente
+- [ ] Criar mais testes automatizados de todas as funcionalidades
 
 ## 💻 Pré-requisitos
 
