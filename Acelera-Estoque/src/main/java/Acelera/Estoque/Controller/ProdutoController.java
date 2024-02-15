@@ -4,10 +4,7 @@ package Acelera.Estoque.Controller;
 import Acelera.Estoque.Modelos.Cliente.Cliente;
 import Acelera.Estoque.Modelos.Cliente.DadosAtualizarCliente;
 import Acelera.Estoque.Modelos.Cliente.DadosCadastroCliente;
-import Acelera.Estoque.Modelos.Produto.DadosAtualizarProduto;
-import Acelera.Estoque.Modelos.Produto.DadosCadastroProdutos;
-import Acelera.Estoque.Modelos.Produto.Produto;
-import Acelera.Estoque.Modelos.Produto.ProdutoRepository;
+import Acelera.Estoque.Modelos.Produto.*;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,8 +32,9 @@ public class ProdutoController {
     }
 
     @GetMapping
-    public Page<Produto> listar (@PageableDefault(sort = {"nome"}) Pageable paginacao){
-        return repository.findAll(paginacao);
+    public ResponseEntity<Page<DadosListagemProduto>> listar (@PageableDefault(sort = {"nome"}) Pageable paginacao){
+        var page = repository.findAll(paginacao).map(DadosListagemProduto::new);
+        return ResponseEntity.ok(page);
     }
 
     @GetMapping("/{nome}")

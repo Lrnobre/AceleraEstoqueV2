@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b955883-3556-48a0-8afb-a522ab6f37b5" name="Changes" comment="Projeto semi pronto">
+    <list default="true" id="6b955883-3556-48a0-8afb-a522ab6f37b5" name="Changes" comment="Dando upload da collection do postman">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acelera-Estoque/src/main/java/Acelera/Estoque/Controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Acelera-Estoque/src/main/java/Acelera/Estoque/Controller/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acelera-Estoque/src/test/java/Acelera/Estoque/Controller/ProdutoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Acelera-Estoque/src/test/java/Acelera/Estoque/Controller/ProdutoControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="Record" />
         <option value="JUnit5 Test Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -40,26 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Users/Leo/Desktop/Projetos Java/Acelera Estoque",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Leo/Desktop/Projetos Java/Acelera Estoque&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Acelera.Estoque.Modelos.Produto" />
       <recent name="Acelera.Estoque.Modelos.Cliente" />
       <recent name="Acelera.Estoque.Modelos.Vendas" />
-      <recent name="Acelera.Estoque.Modelos.Produto" />
       <recent name="Acelera.Estoque.Modelos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -80,7 +82,7 @@
       <recent name="Acelera.Estoque.Modelos.Cliente" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AceleraEstoqueApplication">
+  <component name="RunManager" selected="JUnit.ProdutoControllerTest.cadastrarCenario2">
     <configuration name="AceleraEstoqueApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Acelera.Estoque.AceleraEstoqueApplication" />
       <module name="Acelera-Estoque" />
@@ -142,8 +144,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProdutoControllerTest.cadastrarCenario2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Acelera-Estoque" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Acelera.Estoque.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Acelera.Estoque.Controller" />
+      <option name="MAIN_CLASS_NAME" value="Acelera.Estoque.Controller.ProdutoControllerTest" />
+      <option name="METHOD_NAME" value="cadastrarCenario2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProdutoControllerTest.cadastrarCenario2" />
         <item itemvalue="Application.AceleraEstoqueApplication" />
         <item itemvalue="JUnit.ProdutoControllerTest.cadastrar" />
         <item itemvalue="JUnit.ClienteRepositoryTest.existsByCpfCenario1" />
@@ -179,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707956582752</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dando upload da collection do postman">
+      <option name="closed" value="true" />
+      <created>1707958450944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707958450944</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +228,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto semi pronto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projeto semi pronto" />
+    <MESSAGE value="Dando upload da collection do postman" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dando upload da collection do postman" />
   </component>
 </project>
